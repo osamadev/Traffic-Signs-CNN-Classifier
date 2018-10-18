@@ -1,3 +1,9 @@
+## Classification of Traffic Signs in the Wild Using CNN
+
+This project is to recognize the traffic signs in the wild (real-world) which is one of the main tasks for any self-driving car project. It is a computer vision classification problem that I’ve tackled by building a CNN model trained from scratch to do the job. The original dataset has more than **50,000 traffic sign images** with different sizes collected from the real-world, these images are categorized into 43 target labels. A cross validation technique using randomized grid search has been applied to find-tune the hyperparameters of the model. There are large variations in the visual appearance of the traffic signs in this dataset due to the weather conditions, illumination changes, rotations, the time of the day (night time or day time)…etc. and this was a challenge. My final solution model was able to achieve about **98.5%** prediction accuracy on the test dataset which has **12,630 instances**. I also converted my final solution model into a REST APIs to consume it later in a mobile or a web App.
+
+## Project Summary
+
 - The implementation of the CNN classifier is available in "Traffic_Signs_Classifier.ipynb" file.
  
 - I converted the original dataset that has PPM files to a pickle files, one for training dataset and the other one for the test dataset. 
