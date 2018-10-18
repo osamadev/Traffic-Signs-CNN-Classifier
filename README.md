@@ -10,7 +10,7 @@ This project is to recognize the traffic signs in the wild (real-world) which is
 
  - To check the code that I implemented to convert the original dataset to pickle files , please check the "PickleTrainingDataset.py" file which is already attached with the submission.
 
- - To minimize the size of the capstone submission, I have uploaded the two pickle files (train.pkl & test.pkl) to OneDrive and it could be reached through the following link: https://1drv.ms/f/s!Apt9CJrW-9NSghXkbEbbY50ZAe-H
+ - I have uploaded the two pickle files (train.pkl & test.pkl) to OneDrive and it could be reached through the following link: https://1drv.ms/f/s!Apt9CJrW-9NSghXkbEbbY50ZAe-H
 
 - I saved the class labels of the traffic signs in npz file format called "traffic_sign_labels.npz"
 
