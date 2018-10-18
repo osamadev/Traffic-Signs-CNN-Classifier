@@ -22,3 +22,8 @@ This project is to recognize the traffic signs in the wild (real-world) which is
 
 
 - The train and test datasets in a pickle format should be in "traffic-signs-dataset" folder as shown in the Jupyter notebook.
+
+
+## Testing the final model against unseen traffic signs
+
+<img src="https://github.com/osamadev/Traffic-Signs-CNN-Classifier/blob/master/Test_Results/test_results.png" >
